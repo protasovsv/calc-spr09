@@ -10,6 +10,7 @@ function CalculatorForm(props) {
             <div className="col-4">
                 <select className="form-select" id="op" onChange={props.update}>
                     <option selected>Select an operation</option>
+                    <option value="add">Addition</option>
                 </select>
             </div>
             <div className="col-4">
